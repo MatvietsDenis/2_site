@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Tahoma;
+}
+nav {   
+    padding: 40px;
+    background-color: #22f0ff7a;
+    border-radius: 25px;
+}
+
+.logo {
+    background-size: contain;
+    width: 440px;
+    height: 100px;
+    background-image:url(img2/logo2.png);
+    background-repeat: no-repeat;
+}
+
+.burger {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 100px;
+    height: 100px;
+    margin: 45px 45px 0px 0px;
+    background-size: cover;
+    background-image: url(img2/menu.png);
+    cursor: pointer;
+    display: block;
+}
+
+input[type="checkbox"]  {
+    display: none;
+}
+
+input + .burger + div {
+    display: none;
+}
+
+input:checked + .burger + div {
+    display:block;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    top: 135px;
+    padding: 10px 10px 10px 0px;
+    display: none;
+    background-color:  #22f0ff;
+    border-radius: 25px;
+    border: 4px solid black;
+}
+
+.menu-section {
+    font-family: Tahoma;
+    color: #ffffff;
+    font-size: 24px;
+    margin: 10px 20px 10px 20px;
+}
+.name{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 20%;
+}
+.hyn{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    width: 30%;
+}
+.text{
+    text-align: justify;
+    position: center;
+    padding: 0px 140px 30px 140px;
+    font-size: 25px;
+    font-family: Tahoma;
+    background-color: rgb(255, 255, 255);
+    padding: 25px 0 25px 0;
+    margin: 0 10% 0 10%;
+}
+.vidio{
+    padding: 40px 0 0 0;
+    width: 50%;
+    height: 40%;
+}
+.photo{
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    width: 50%;
+}
+.left{
+    padding-left: 40px;
+}
+.down{
+    width: 100%-80px;
+    padding: 40px;
+    background-color: #22f0ff7a;
+    border-radius: 25px;
+    
+}
+.inst{
+    padding: 40px 0px 40px 0;
+    display: inline-block;
+   
+    height: 8%;
+}
+.map{
+    padding-bottom: 20px;
+
+width: 50%;
+    height: 40%;
+}
+.info{
+    margin-left: 25%;
+    padding-bottom: 40px;
+    font-size: 20px;
+}
+.you{
+    display: inline-block;
+}
+.li{
+    margin: 0 7% 0 7%;
+}
+.youy{
+    padding: 40px 0px 40px 0;
+    display: inline-block;
+   
+    height: 8%;
+}
+a{
+    text-decoration: none;
+      color: black;
+   }
+
+
